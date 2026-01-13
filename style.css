@@ -5,7 +5,8 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1f2937;
     display: flex;
     align-items: center;
@@ -184,4 +185,10 @@ button {
 #call-to-action-button {
     font-size: 16px;
     border: 2px solid white;
+}
+
+.footer {
+    padding: 32px;
+    font-size: 16px;
+    color: white;
 }
