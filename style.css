@@ -4,7 +4,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header {
+.header,
+.hero {
     background-color: #1f2937;
     display: flex;
     align-items: center;
@@ -13,12 +14,12 @@ body {
 
 .container {
     width: 70%;
-    padding: 16px;
 }
 
 #header {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
 #logo {
@@ -38,4 +39,45 @@ ul {
 .header-link {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 112px;
+}
+
+#hero-text-container {
+    width: 500px;
+}
+
+#hero-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 24px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+#placeholder {
+    background-color: #6d747d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 112px;
 }
