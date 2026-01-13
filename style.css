@@ -61,16 +61,17 @@ ul {
 #hero-secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 16px;
 }
 
 button {
     background-color: #3882f6;
     color: white;
-    padding: 8px 24px;
+    padding: 8px 32px;
     font-weight: bold;
     border: 0px;
     border-radius: 8px;
-    margin-top: 16px;
+    font-size: 14px;
 }
 
 #placeholder {
@@ -80,18 +81,19 @@ button {
     justify-content: center;
     align-items: center;
     padding: 0 112px;
+    text-align: center;
 }
 
 .info-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 #info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     padding: 72px;
 }
@@ -122,4 +124,64 @@ button {
     width: 200px;
     height: 200px;
     margin-bottom: 8px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 112px;
+    width: 50%;
+    gap: 16px;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+#quoter {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#call-to-action-section {
+    background-color: #3882f6;
+    margin: 96px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+#call-to-action-text {
+    color: white;
+}
+
+#call-to-action-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#call-to-action-button {
+    font-size: 16px;
+    border: 2px solid white;
 }
